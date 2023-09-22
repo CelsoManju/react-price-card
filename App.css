@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.price-plan-panel {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;  
+}
+
+.price-plan-card {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  flex: 0 1 calc(40% - 20px); 
+  margin-bottom: 20px;
+  margin-right: 20px; 
+}
+
+.price-plan-card:last-child {
+  margin-right: 0; 
+}
+
+.price-plan-card h2 {
+  color: #007bff;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
